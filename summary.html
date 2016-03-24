@@ -1,0 +1,33 @@
+<div class="container">
+
+<ul class="day">
+<div class="summary-padding">
+<li class="summary-points" ng-repeat="item in formData">
+    <div ng-if!="!isEmptyObject(formData)">
+        <img src="images/li.png" /> {{item}}
+    </div>
+</li>
+<li class="no-sessions">
+        <h3 class="summary-heading col-lg-12 col-md-12 col-sm-12 text-center">Currently you do not have any requirements.</h3>
+        <p class="col-md-12 text-center" style="padding-bottom: 15px;">Would you like some help to pick the right solution?</p><br />
+        <img src="images/no-service.png" class="col-lg-3 col-lg-offset-5 summary-image img-responsive hidden-sm hidden-xs" />
+    </li>
+</div>
+</ul>
+</div>
+
+
+<div class="form-group row">
+
+<div class="col-xs-2 text-right">
+    <a ui-sref="form.other" class="btn btn-block btn-info">
+    <span class="glyphicon glyphicon-circle-arrow-left"></span> Previous section 
+    </a>
+
+</div>
+<div class="col-xs-2 col-xs-offset-8 text-left">
+    <a href="mailto: svetlana@margetova.eu" class="btn btn-block btn-submit">
+    Send me message <span class="glyphicon glyphicon-message"></span>
+    </a>
+</div>
+</div>

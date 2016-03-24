@@ -1,0 +1,66 @@
+<div class="row">
+<div class="col-sm-12 col-lg-12 hidden-xs">
+
+  <div id="form-container">
+  
+      <div class="text-center">
+          
+          <!-- the links to our nested states using relative paths -->
+          <!-- add the active class if the state matches our ui-sref -->
+          <div id="status-buttons" class="text-center">
+              <a ui-sref-active="active" ui-sref=".whoyouare"> <li role="presentation" class="services-menu-tab col-sm-2 active">
+                
+                    <img src="images/who.png" width="60" height="60" style="margin-top: 20px;" alt="You" class="img-responsive center-block" />
+                    <p class="service-header">Who are you?</p>
+                
+            </li></a>
+
+              <a ui-sref-active="active" ui-sref=".industry"> <li role="presentation" class="services-menu-tab col-sm-2 active">
+                
+                    <img src="images/building.png" width="60" height="60" style="margin-top: 20px;" alt="You" class="img-responsive center-block" />
+                    <p class="service-header">Industry</p>
+                
+            </li></a>
+
+            <a ui-sref=".service"> <li role="presentation" class="services-menu-tab col-sm-2 active">
+                
+                    <img src="images/service.png" width="60" height="60" style="margin-top: 20px;" alt="You" class="img-responsive center-block" />
+                    <p class="service-header">Service type</p>
+                
+            </li></a>
+
+            <a ui-sref=".requirements"> <li role="presentation" class="services-menu-tab col-sm-2 active">
+                
+                    <img src="images/development.png" width="60" height="60" style="margin-top: 20px;" alt="You" class="img-responsive center-block" />
+                    <p class="service-header">Development</p>
+                
+            </li></a>
+
+            <a ui-sref=".other"> <li role="presentation" class="services-menu-tab col-sm-2 active">
+                
+                    <img src="images/other1.png" width="60" height="60" style="margin-top: 20px;" alt="You" class="img-responsive center-block" />
+                    <p class="service-header">Other requirements</p>
+                
+            </li></a>
+
+            <a ui-sref=".summary"> <li role="presentation" class="services-menu-tab col-sm-2 active">
+                
+                    <img src="images/pay.png" width="60" height="60" style="margin-top: 20px;" alt="You" class="img-responsive center-block" />
+                    <p class="service-header">Summary</p>
+                
+            </li></a>
+              
+          </div>
+      </div>
+      
+      <!-- use ng-submit to catch the form submission and use our Angular function -->
+      <form id="signup-form" ng-submit="processForm()">
+          <!-- our nested state views will be injected here -->
+          <div id="form-views" ui-view></div>
+      </form>
+  
+  </div>
+  
+
+</div>
+</div>

@@ -1,0 +1,109 @@
+@media screen and (max-width: 1024px) {
+    .main-heading {
+    	font-size: 28px;
+    }
+
+    p.shelman {
+    	letter-spacing: 1px;
+    }
+
+    .summary-image {
+  left: 325px;
+}
+
+.bx-wrapper .slide-content h3 {
+	font-size: 28px;
+}
+
+.bx-wrapper .slide-content {
+	height: 400px;
+}
+
+.project-header {
+	font-size: 18px;
+}
+
+.project-name {
+	font-size: 14px;
+}
+
+.slider-heading {
+	position: absolute;
+	top: -55px;
+}
+
+.slide-img {
+	position: absolute;
+	top: -26px;
+}
+}
+
+@media screen and (max-width: 768px) {
+   .landing-screen {
+   	height: 300px;
+   }
+
+   .hovno {
+   	padding-top: 39px;
+   }
+
+   .person-margin {
+    display: none;
+   	margin-left: 109px;
+   }
+
+.person-description {
+  font-size: 11px;
+}
+   .services-menu-tab > .img-responsive {
+   	width: 40px;
+   }
+
+   .service-header {
+   	font-size: 12px;
+   }
+
+   .btn-info, 
+   .btn-submit {
+   	margin-left: -32px;
+   }
+
+
+.bx-wrapper .slide-content h3 {
+  font-size: 19px;
+}
+.bx-wrapper .slide-content p {
+  font-size: 14px;
+  margin-top: 15px;
+}
+.slide-img {
+	top: 55px;
+}
+.footer {
+	padding: 10px;
+}
+}
+
+@media screen and (max-width: 640px) {
+	.bx-wrapper .bx-controls-direction a {
+		display: none;
+	}
+
+	.small-header {
+		position: absolute;
+		margin-top: -50px;
+		left: 25%;
+	}
+   }
+
+   @media screen and (max-width: 380px) {
+	.bx-wrapper .bx-controls-direction a {
+		display: none;
+	}
+
+	.small-header {
+		position: absolute;
+		margin-top: -50px;
+		left: 2%;
+	}
+   }
